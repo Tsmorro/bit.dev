@@ -1,0 +1,16 @@
+{
+  "name": "@bit/modal",
+  "version": "5.1.1",
+  "description": "Native Angular Bootstrap Components",
+  "private": true,
+  "main": "../bundles/bit-modal-modal.umd.js",
+  "module": "../fesm5/bit-modal-modal.js",
+  "es2015": "../fesm2015/bit-modal-modal.js",
+  "esm5": "../esm5/modal/bit-modal-modal.js",
+  "esm2015": "../esm2015/modal/bit-modal-modal.js",
+  "fesm5": "../fesm5/bit-modal-modal.js",
+  "fesm2015": "../fesm2015/bit-modal-modal.js",
+  "typings": "bit-modal-modal.d.ts",
+  "metadata": "bit-modal-modal.metadata.json",
+  "sideEffects": false
+}

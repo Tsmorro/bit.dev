@@ -1,0 +1,58 @@
+[
+  {
+    "id": {
+      "scope": "valor-software.ngx-bootstrap",
+      "name": "modal"
+    },
+    "isSymlink": false,
+    "hash": "ef45180a5b16e1684b1df277d55e1f2d6014ef2c"
+  },
+  {
+    "id": {
+      "scope": "valor-software.ngx-bootstrap",
+      "name": "internal/component-loader"
+    },
+    "isSymlink": false,
+    "hash": "830628ede27ed1da888f99690b573d9ef6d976bc"
+  },
+  {
+    "id": {
+      "scope": "valor-software.ngx-bootstrap",
+      "name": "internal/positioning"
+    },
+    "isSymlink": false,
+    "hash": "911a7b0433c0d92ff999c5def2b3fb1e595a9022"
+  },
+  {
+    "id": {
+      "scope": "valor-software.ngx-bootstrap",
+      "name": "utils"
+    },
+    "isSymlink": false,
+    "hash": "3507650728e9ac9dde79697982f906cbcb0dabe5"
+  },
+  {
+    "id": {
+      "scope": "tmorrowdev.crem2",
+      "name": "material"
+    },
+    "isSymlink": false,
+    "hash": "2ba8788e5e7113f1168a61556b0bb611a8373713"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "compilers/angular"
+    },
+    "isSymlink": false,
+    "hash": "ff9bc2ee2e58fda705df24b3be15badf367346ef"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "compilers/utils"
+    },
+    "isSymlink": false,
+    "hash": "cc7bb2c0111e69015e8cf907fc7b13755039e61c"
+  }
+]

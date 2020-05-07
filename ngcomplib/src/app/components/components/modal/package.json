@@ -1,0 +1,45 @@
+{
+  "name": "@bit/valor-software.ngx-bootstrap.modal",
+  "version": "5.1.1",
+  "homepage": "https://bit.dev/valor-software/ngx-bootstrap/modal",
+  "main": "dist/modal/bundles/bit-modal.umd.js",
+  "dependencies": {
+    "@bit/valor-software.ngx-bootstrap.internal.component-loader": "5.1.1",
+    "@bit/valor-software.ngx-bootstrap.utils": "5.1.1",
+    "@bit/valor-software.ngx-bootstrap.internal.positioning": "5.1.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/core": ">=7.0.0",
+    "@angular/forms": "^8.0.0",
+    "@angular/animations": "^8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.1.7"
+    },
+    "overrides": {
+      "dependencies": {
+        "@angular/forms": "-",
+        "@angular/animations": "-"
+      },
+      "peerDependencies": {
+        "@angular/forms": "^8.0.0",
+        "@angular/animations": "^8.0.0"
+      }
+    },
+    "resolveAliases": {
+      "ngx-bootstrap/component-loader": "@bit/valor-software.ngx-bootstrap.internal.component-loader",
+      "ngx-bootstrap/utils": "@bit/valor-software.ngx-bootstrap.utils",
+      "ngx-bootstrap/positioning": "@bit/valor-software.ngx-bootstrap.internal.positioning"
+    }
+  },
+  "es2015": "dist/modal/fesm2015/bit-modal.js",
+  "esm5": "dist/modal/esm5/bit-modal.js",
+  "esm2015": "dist/modal/esm2015/bit-modal.js",
+  "fesm5": "dist/modal/fesm5/bit-modal.js",
+  "fesm2015": "dist/modal/fesm2015/bit-modal.js",
+  "module": "dist/modal/fesm5/bit-modal.js",
+  "typings": "dist/modal/bit-modal.d.ts"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "components",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "dependencies": {
+    "bit": "^1.0.20",
+    "yarn": "^1.22.4",
+    "@bit/bit.envs.compilers.angular": "file:./components/compilers/angular",
+    "@bit/valor-software.ngx-bootstrap.modal": "file:./components/modal"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  }
+}
